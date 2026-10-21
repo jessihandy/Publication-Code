@@ -7,8 +7,8 @@ library(tableone)
 #dat <- fread('[path]') 
 
 # subsets
-hhdiv_divestors <- fread('/projects/studdert/longshot-pitt/HHDivestment/Datasets/hhdiv_divesters2.csv')
-hhdiv_matchedcomparators <- fread('/projects/studdert/longshot-pitt/HHDivestment/Datasets/hhdiv_matchedcomparators2.csv')
+hhdiv_divestors <- fread('./Datasets/hhdiv_divesters2.csv')
+hhdiv_matchedcomparators <- fread('./Datasets/hhdiv_matchedcomparators2.csv')
 
 # just keep ids and time0 (divestment date)
 hhdiv_divestors <- hhdiv_divestors[,c("id","fhhdobs_date","dedup_hhid_size")]
