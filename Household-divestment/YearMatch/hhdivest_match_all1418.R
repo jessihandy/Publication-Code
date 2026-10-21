@@ -8,9 +8,6 @@
 ##
 #################
 
-##set working directory
-setwd('/projects/studdert/longshot-pitt/HHDivestment')
-
 ##run data set up code (also has the matching functions)
 source('./Programs/MatchedCohort2/hhdivest_matching_set_up.R',echo=TRUE)
 
